@@ -1,0 +1,21 @@
+{
+  "name": "pixiljs-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^4.5.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
